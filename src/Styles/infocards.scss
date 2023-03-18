@@ -1,0 +1,71 @@
+@import './config';
+.cards{
+  width: 1037px;
+  padding: 28px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+ &__card{
+  width: 240px;
+  background: #FFFFFF;
+   border: 1px solid rgba(33, 63, 125, 0.06);
+   box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+   border-radius: 4px;
+   padding: 15px 20px;
+ }
+
+  &__card__icon{
+   text-align: center;
+   display: flex;       
+   justify-content: center;
+   align-items: center;
+   width: 45px;
+   height: 45px;
+   font-size: 25px;
+   border-radius: 50%;
+  }
+
+  &__card__title{
+   font-family: 'Work Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   text-transform: uppercase;
+   margin: 8px 0;
+   color: #545F7D;
+  }
+
+  &__card__data{
+   color: $primary-color;
+   font-family: 'Work Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 28px;
+   text-transform: uppercase;
+  }
+
+  .bg__pinky{
+   background:rgba(223, 24, 255, .1) ;
+   color: #DF18FF;
+  }
+
+  .bg__purple {
+   background: rgba(87, 24, 255, .1);
+   color: #5718FF;
+  }
+  .bg__warning {
+   background: rgba(245, 95, 68, .1);
+   color:#F55F44 ;
+  }
+  .bg__danger {
+   background: rgba(255, 51, 102, .1);
+   color: #FF3366;
+  }
+
+    
+ 
+}
+

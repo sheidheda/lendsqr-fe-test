@@ -1,0 +1,120 @@
+@import './config';
+
+.userTable {
+  background: #FFFFFF;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  width: 1037px;
+  border-radius: 4px;
+  padding: 0 30px;
+
+
+  &__table thead {
+    border: none;
+    border-width: 0;
+    border-style: none;
+    border-color: transparent;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: $primary-color;
+  }
+
+  &__table tbody {
+    font-size: 14px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: $primary-color;
+
+  }
+
+  &__table__heads {
+    font-size: 14px;
+    font-family: 'Work Sans';
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    padding: 20px 3px !important;
+  }
+
+  tbody>tr:last-child {
+    border-bottom: transparent;
+
+  }
+
+
+  .bg__active {
+    color: #39CD62;
+    background: rgba(57, 205, 98, .1);
+    border-radius: 5px;
+    padding: 5px !important;
+    text-align: center;
+  }
+
+  .bg__inactive {
+    color: $tetiary-color;
+    background: rgba(84, 95, 125, .1);
+    border-radius: 5px;
+    padding: 5px !important;
+    text-align: center;
+  }
+
+  .bg__pending {
+    columns: $app-warning;
+    background: rgba(233, 178, 0, .1);
+    border-radius: 5px;
+    padding: 5px !important;
+    text-align: center;
+  }
+
+  .bg__blacklisted {
+    color: #FF3366;
+    background: rgba(255, 51, 102, .1);
+    border-radius: 5px;
+    padding: 5px !important;
+    text-align: center;
+  }
+
+  .dropdown {
+
+    &__menu {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 180px;
+      height: 130px;
+      left: 1145px;
+      padding: 20px 30px;
+      gap: 20px;
+      background: #FFFFFF;
+      border: 1px solid rgba(84, 95, 125, 0.04);
+      box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+      z-index: 100;
+    }
+
+    &__item {
+      text-decoration: none;
+      color: $tetiary-color;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0px;
+    }
+  }
+
+  .hr {
+    position: absolute;
+    width: 970px;
+    height: 1px;
+    left: 329px;
+    color: rgba(33, 64, 125, 0.068);
+  }
+}

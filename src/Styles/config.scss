@@ -1,0 +1,35 @@
+$primary-color: #213F7D;
+$secondary-color: #39CDCC;
+$tetiary-color: #545F7D;
+$app-danger: #E4033B;
+$app-orange: #F55F44;
+$app-warning: #E9B200;
+$app-royal:  #DF18FF;
+$app-navy: #5718FF;
+$app-active: #39CDCC;
+
+
+
+
+*, *::after, *::before{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+.main{
+ width: 83%;
+ margin-left: 230px;
+ margin-top: 105px;
+
+
+ &__wrapper{
+  padding: 50px 60px;
+ }
+}
+
+
+
+
+
+

@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Pages 
+
+The pages folder contains
+1. login page (username: test, password: test).
+2. Dashboard
+3. User page
+4. User details page
+
 ## Available Scripts
 
 In the project directory, you can run:

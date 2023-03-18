@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import './config';
+@import './loginform';
+@import './navigationbars';
+@import './infocards';
+@import './usertable';
+@import './user';
+@import './mediaquerries';
+ 
+
+
+body {
+ background: rgb(248, 248, 248);
+ // overflow-x: hidden;
+ font-family: 'Sen', sans-serif !important;
+ 
+  
+}
+
+.page__title {
+ color: $primary-color;
+ text-transform: capitalize;
+}
+
+.paginationBttns {
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 4%;
+
+}
+
+.paginationBttns a {
+ padding: 5px;
+ margin: 4px;
+ border-radius: 5px;
+ text-decoration: none;
+ border: 1px solid $secondary-color;
+ color: $secondary-color;
+ cursor: pointer;
+ font-size: 15px;
+}
+
+.paginationBttns a:hover {
+ color: white;
+ background-color: $secondary-color;
+}
+
+.paginationActive a {
+ color: white !important;
+ background-color: $secondary-color;
+}
+
+.paginationDisabled a {
+ color: #000;
+ background-color: #FFFF;
+ cursor: not-allowed;
+}
+
+
+

@@ -1,0 +1,158 @@
+@import './config';
+.navbar{
+ position: absolute;
+ left: 0%;
+ right: 0%;
+ top: 0%;
+ bottom: 0%;
+ height: 100px;
+ width: 100%;
+ background: #FFFFFF;
+ box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+
+
+  &__inner{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   padding: 0 45px;
+  }
+
+  &__items:first-of-type{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 55%;
+  }
+  &__items:last-of-type{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 45%;
+  }
+
+  &__search{
+   display: flex;
+   align-items: center;
+   position: relative;
+  }
+
+  &__searchinput{
+   background: #FFFFFF;
+   opacity: 0.4;
+   border: 1px solid $primary-color;
+   color: $primary-color;
+   border-radius: 8px;
+   width: 400px;
+   height: 40px;
+   padding: 0 10px;
+  }
+
+  &__searchbtn{
+   position: absolute;
+   background: $secondary-color;
+   width: 56px;
+   height: 40px;
+   right: -.5px;
+   border: 1px solid $secondary-color;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   color: #fff;
+  }
+
+  &__dropdown{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: $primary-color;
+   gap: 10px;
+  }
+
+  &__dropdown__image{
+   height: 48px;
+   width: 48px;
+   border-radius: 50%;
+   margin: 0 10px;
+  }
+
+  &__dropdown__toggle{
+   color: $primary-color;
+  }
+
+  &__dropdown__toggle:focus{
+   border: none;
+  }
+
+  &__bell__icon{
+   color: $primary-color;
+   font-size: 22px;
+   margin-left: 50px;
+   margin-right: 33px;
+  }
+
+  &__docs__link{
+   color: $primary-color;
+   text-transform: capitalize;
+  }
+    
+  &__docs__link:hover{
+   text-decoration: none;
+  }
+  
+  
+}
+
+// ================================ the above decalration is for to navigation bar ==========================
+
+.sidebar{
+ background-color: #FFFFFF;
+ height: 1150px;
+ position: absolute;
+ left: 0;
+ top: 100.5px;
+ max-width: 260px;
+ width: 100%;
+ box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+
+ &__inner{
+   padding-top: 15px;
+ }
+ 
+ &__nav{
+  list-style-type: none;
+  padding-left: 0;
+
+  &__item{
+   padding: 12px 20px;
+   display: flex;
+   align-items: center;
+    
+   gap: 12.67px;
+   font-size: 15px;
+   color: $primary-color;
+  }
+  &__item.active{
+   background: rgba(57, 205, 204, .2);
+   border-left: 3px solid #39CDCC;
+   color: $primary-color;
+  }
+
+  &__title{
+    padding: 5px 20px;
+    // text-align: center;
+    display: flex;
+    font-size: 13;
+    align-items: center;
+    font-size: 15px;
+    color: $primary-color;
+  }
+
+  &__link{
+   text-decoration: none;
+   text-transform: capitalize;
+   color: #324a7a;
+  }
+
+ }
+
+}

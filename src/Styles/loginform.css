@@ -1,0 +1,149 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 83%;
+  margin-left: 230px;
+  margin-top: 105px;
+}
+.main__wrapper {
+  padding: 50px 60px;
+}
+
+.login_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.banner_container {
+  padding: 80px 80px 10px;
+  height: 100vh;
+  width: 100%;
+}
+
+.loginform_container {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  padding: 200px 80px 60px;
+}
+
+.logo {
+  width: 150px;
+}
+.logo__image {
+  height: 95px;
+  width: 145px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.banner {
+  margin-top: 60px;
+}
+.banner__image {
+  max-width: 100%;
+  width: 650px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+}
+.loginform h2 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  color: #213F7D;
+  margin-bottom: 10px;
+}
+.loginform p:first-of-type {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545F7D;
+  margin-bottom: 55px;
+}
+.loginform p:last-of-type {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #39CDCC;
+  cursor: pointer;
+}
+.loginform__input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0 15px;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
+}
+.loginform__input::-moz-placeholder {
+  color: #bebdbd;
+}
+.loginform__input::placeholder {
+  color: #bebdbd;
+}
+.loginform__button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #39CDCC;
+  height: 48px;
+  border: 1px solid #39CDCC;
+  border-radius: 8px;
+  color: #fff;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.loginform .pos_show {
+  position: relative;
+}
+.loginform span {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #39CDCC;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.loginform .error {
+  font-size: 13.5px;
+  padding: 5px 8px;
+  margin-top: 5px;
+  background-color: rgba(255, 51, 102, 0.08);
+  color: #E4033B;
+}/*# sourceMappingURL=loginform.css.map */
